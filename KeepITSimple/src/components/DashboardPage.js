@@ -2,7 +2,12 @@ import React from 'react';
 
 const DashboardPage = () => (
   <div>
-    Dashboard page content
+    <Header></Header>
+    <div>
+      <button>Página de Processos</button>
+      <button>Follow Ups</button>
+      <button>Candidatos</button>
+    </div>
   </div>
 );
 

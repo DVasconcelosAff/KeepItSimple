@@ -2,7 +2,7 @@ import React from 'react';
 
 const ProcessBoard = () => (
   <div>
-    Dashboard page content
+    Processboard page content
   </div>
 );
 

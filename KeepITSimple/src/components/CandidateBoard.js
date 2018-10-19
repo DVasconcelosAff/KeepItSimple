@@ -2,7 +2,7 @@ import React from 'react';
 
 const CandidateBoard = () => (
   <div>
-    Dashboard page content
+    Candidate page content
   </div>
 );
 
