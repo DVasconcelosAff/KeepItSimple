@@ -3,6 +3,24 @@ import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 import { startLogout } from '../actions/auth';
 
+
+export const Header = ({ startLogout }) => (
+  <header className="header">
+    <div className="content-container">
+      <div className="header__content">
+          <h1>IR AO PROPS</h1>
+        <button className="button button--link" >Logout</button>
+      </div>
+    </div>
+  </header>
+);
+
+/*
+const mapDispatchToProps = (dispatch) => ({
+  startLogout: () => dispatch(startLogout())
+});
+*/
+/*
 export const Header = ({ startLogout }) => (
   <header className="header">
     <div className="content-container">
@@ -16,10 +34,11 @@ export const Header = ({ startLogout }) => (
   </header>
 );
 
+
 const mapDispatchToProps = (dispatch) => ({
   startLogout: () => dispatch(startLogout())
 });
-
+*/
 export default Header;
 
 //export default connect(undefined, mapDispatchToProps)(Header);

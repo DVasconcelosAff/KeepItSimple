@@ -1,13 +1,15 @@
 import React from 'react';
 import Header from './Header';
+import { Link } from 'react-router-dom';
+
 
 const DashboardPage = () => (
   <div>
     <Header></Header>
     <div>
-      <button>Página de Processos</button>
-      <button>Follow Ups</button>
-      <button>Candidatos</button>
+      <Link to ="/processBoard" > Página de Processos </Link>
+      <Link to ="/followUpPage" > Follow Ups </Link>
+      <Link to ="/candidateBoard" > Candidatos </Link><button>Candidatos</button>
     </div>
   </div>
 );
